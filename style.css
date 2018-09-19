@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat' sans-serif;
+	font-weight: 300;
+}
+
+/*=====================
+	Navbar
+=====================*/
+
+#navs {
+	border-radius: 0;
+}
+
+#navs a {
+	color: white;
+	text-transform: uppercase;
+}
+
+#navs a:hover {
+	color: tomato;
+}
+
+#navs img {
+	width: 60%;
+}
+
+/*=====================
+	Jumbotron
+=====================*/
+
+#home {
+	border-radius: 0;
+	color: white;
+	text-align: center;
+}
+
+#home h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#home button {
+	background-color: tomato;
+	border: none;
+	transition: 0.5s all ease-in-out;
+}
+
+#home button:hover {
+	background-color: rgb(255,50,0);
+}
+
+/*=====================
+	Services
+=====================*/
+
+#services {
+	background-color: white;
+}
+
+#services {
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+#services .icon {
+	padding: 20px;
+	border: 3px solid #eee;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 28px;
+	overflow: hidden;
+}
+
+#services .row {
+	padding: 40px ;
+}
+
+#services .colom-4 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services .active {
+	background-color: tomato;
+}
+
+#services h3 {
+	padding: 1em 0;
+}
+
+/*=====================
+	Stories
+=====================*/
+
+#stories {
+	background-color: whitesmoke;
+	padding: 30px 0;
+}
+
+#stories .outline {
+	outline: 1px solid black;
+}
+
+#stories .title {
+	text-align: center;
+}
+
+#stories .colom-5 {
+	padding: 1em;
+}
+
+#stories .colom-6 {
+	padding: 0;
+	margin-top: 0;
+	/*margin-right: 0.5em;*/
+	margin-left: 0;
+	/*margin-bottom: 0.5em;*/
+	overflow: hidden;
+	border: 1px solid silver;
+	height: 300px;
+	background-color: #333;
+	position: relative;
+}
+
+#stories .feature {
+	height: 300px;
+	width: auto;
+	opacity: 0;
+	transition: 0.5s all ease-in-out;
+	background: #777;
+}
+
+#stories .feature img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+#stories .feature:hover {
+	opacity: 1;;
+}
+
+#stories .thumb {
+	background-color: #333;
+}
+
+#stories h2 {
+	margin: 1em 0;
+}
+
+#stories p {
+	margin-bottom: 2em;
+}
+
+#stories button {
+	background-color: tomato;
+	border: none;
+	transition: 0.5s all ease-in-out;
+}
+
+#stories button:hover {
+	background-color: rgb(255,50,0);
+}
+
+#stories .img {
+	margin-top: 4em;
+}
+
+/*=====================
+	About
+=====================*/
+
+#about {
+	padding: 2em;
+	text-align: center;
+}
+
+#about .title2 {
+	text-align: center;
+}
+
+#about h2 {
+	margin: 1em 0;
+}
+
+#about button {
+	color: tomato;
+	padding: 0.5em;
+}
+
+/*=====================
+	Form
+=====================*/
+
+#form .colom-7 {
+	padding: 0;
+}
+
+#form .form-control {
+	width: 100%;
+}
+
+#form textarea {
+	height: 150px;
+}
+
+#form input[type="submit"] {
+	background-color: tomato;
+	border: none;
+	transition: 0.5s all ease-in-out;
+}
+
+#form input[type="submit"]:hover {
+	background-color: rgb(255,50,0);
+}
+
+/*=====================
+	Form
+=====================*/
+
+#footer {
+	color: white;
+}
+
+#footer .social-media {
+	padding-top: 0.5em;
+}
+
+#footer .nav-item {
+	margin-right: 0.5em;
+	transition: 0.5s all ease-in-out;
+}
+
+#footer .nav-item:hover {
+	opacity: 0.8;
+}
